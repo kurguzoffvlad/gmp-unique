@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "gmp-unique": [
+        "dist/gmp-unique"
+      ],
+      "gmp-unique/*": [
+        "dist/gmp-unique/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
